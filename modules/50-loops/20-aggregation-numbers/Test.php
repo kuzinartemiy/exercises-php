@@ -13,5 +13,6 @@ class Test extends TestCase
         assert(multiplyNumberFromRange(2, 2) === 2);
         assert(multiplyNumberFromRange(1, 3) === 6);
         assert(multiplyNumberFromRange(1, 5) === 120);
+        assert(multiplyNumberFromRange(6, 6) === 6);
     }
 }
